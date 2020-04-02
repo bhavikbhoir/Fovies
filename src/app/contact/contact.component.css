@@ -1,0 +1,29 @@
+.title{
+    text-align: center;
+    margin: 10px 0px;
+}
+.form{
+    font-size: 16px;
+}
+.field{
+    margin: 10px 0px;
+    text-align: center;
+}
+input{
+    padding: 5px;
+}
+input, textarea{
+    width: 80%;
+    padding: 5px;
+}
+button{
+    color: white;
+    background-color: #343a40;
+}
+.button{
+    text-align: center;
+}
+.map iframe{
+    width: 100%;
+    margin: 10px 0;
+}

@@ -1,0 +1,133 @@
+.hero{
+    width: 100%;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 0px;
+    /* opacity: 0.8; */
+}
+.hero h1{
+    font-size: 40px;
+}
+.hero{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+.story{
+    animation-duration: 3s;
+    animation-name: slideinright;
+}
+@keyframes slideinright {
+    from {
+      margin-right: 100%;
+      width: 300%; 
+    }
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+}
+
+.title{
+    text-align: center;
+    padding: 5px;
+}
+.card{
+    border: none;
+}
+.card img{
+    width: auto;
+    height: 300px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 1px solid  #343a40;
+}
+.card-title{
+    text-align: center;
+    font-style: italic;
+    margin: 5px 0px;
+}
+.card-title h4{
+    opacity: 0.7;
+}
+.row{
+    width: 100%;
+    padding: 5px 0px;
+}
+.row h1{
+    display: inline-flex;
+}
+.card-text{
+    font-size: 16px;
+    text-align: justify;
+}
+.story{
+    width: 100%;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 0px;
+    /* opacity: 0.8; */
+}
+.story h1{
+    font-size: 40px;
+}
+.insights{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.insights .row{
+    margin: 0px;
+}
+/* Float four columns side by side */
+.insights .column {
+    float: left;
+    width: 25%;
+    padding: 15px;
+  }
+ 
+/* Responsive columns */
+@media screen and (max-width: 992px) {
+    .insights .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }  
+  /* Clear floats after the columns */
+.insights .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+.insights .card {
+    height: 100%;
+    font-size: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background: white;
+    color: #2C5364;
+  }
+  
+.insights.fa {font-size:80px;}
+  
